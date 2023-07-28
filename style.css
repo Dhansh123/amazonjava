@@ -1,0 +1,71 @@
+p{
+    font-family: victor mono;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.new{
+
+    color: orange;
+    font-size: large ;
+    font-weight: bold;
+}
+
+.mac{
+font-size: 25px;
+font-weight: bold;
+}
+.super{
+font-size: 45px;
+font-weight: bold;
+
+}
+
+.buy{
+display: block;
+margin:auto;
+text-align: center;
+background-color: rgb(97, 62, 252);
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-weight: bold;
+border-radius:10px;
+border-style: solid;
+border-color: rgb(97, 62, 252);
+}
+.buy:hover{
+cursor: grab;
+opacity: .4;
+}
+.apple{
+    width:100px;
+    margin-left: 260px;
+    
+}
+.apple:active{
+    opacity: .3;
+}
+
+.search{
+    display: block;
+    margin-bottom: 40px;
+margin:auto;
+text-align: center;
+background-color: rgb(0, 0, 0);
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-weight: bold;
+border-radius:10px;
+border-style: solid;
+border-color: rgb(97, 62, 252);
+}
+
+
+
+

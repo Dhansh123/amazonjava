@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.nav-bar{
+    position: fixed;
+    display:flex;
+    width:100%;
+    background-color: black;
+    height: 56px;
+    justify-content: space-evenly;
+    
+}
+.first-sec
+{
+    display: flex;
+    width: 200px;
+    /* background-color:grey; */
+   color: white;
+   align-items: center;
+   margin-left:-50px;
+   justify-content: space-evenly;
+}
+.yt{
+    margin-left:30px;
+}
+
+.second-sec{
+   display: flex;
+   flex:1;
+   margin-left:70px;
+   margin-right:35px;
+   max-width: 732px;
+   align-items: center;
+  
+   /* background-color: white; */
+
+}
+
+.search{
+    color:grey;
+    height: 36px;
+    width:400px;
+    background-color: black;
+    border:0.5px solid grey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 100px;
+    padding-left: 20px;
+}
+
+.search-but{
+    background-color: rgb(71, 68, 68);
+    border:0.5px solid grey;
+    height: 39.34px;
+    width: 46px;
+    margin-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:none;
+    margin-left: 0px;
+}
+.but-mic
+{
+    background-color: rgb(71, 68, 68);
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width:40px;
+
+}
+
+.third-sec{
+display: flex;
+width:180px;
+align-items:center;
+justify-content: space-between;
+margin-right: 20px;
+
+}
+.propic{
+    height:40px;
+    width: 40px;
+    border-radius: 20px;;
+}
+
+.nav2
+{
+  display:inline-block;
+  width:100%;
+  background-color:grey;
+
+}
+
+/* column */
+
+.nav-col
+{
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    bottom:0;
+    left:0;
+    top: 36px;
+    width:72px;
+    background-color: black;
+    justify-content: space-evenly;
+
+}
+
+/* 
+video */
+
+
+.thumbnail{
+    
+    width:100%;
+}
+.thumbnailrow{
+    margin-bottom: 10px;
+}
+
+.videoinfogrid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+    
+}
+
+.videogrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 40px;
+}
+
+.profilepic{
+
+    
+    width:40px;
+    border-radius:50px;
+
+}
+.videotitle{
+    font-weight:bold;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    margin-top: 0px;
+}
+.author,.stats{
+    font-size: 12px;
+    color:rgb(96, 96, 96) ;
+}
+.author{
+    margin-bottom: 0px;
+}
+
+
+
